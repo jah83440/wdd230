@@ -1,0 +1,24 @@
+/* Mobile First */
+/* Small View */
+#lesson2content{}
+
+
+header{}
+
+.sectionheader{}
+
+section div img{}
+
+
+
+
+/* Medium View */
+@media screen and (min-width:600px) {
+    
+}
+
+
+/* Large View */
+@media screen and (min-width:900px){
+
+}

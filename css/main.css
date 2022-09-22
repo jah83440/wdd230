@@ -12,6 +12,9 @@ header{
     text-align: center;
     align-items: center;
 }
+header img{
+    padding-top: 10px;
+}
 footer{
     background-color: rgb(255, 215, 0);
     color: rgb(4, 99, 7);
