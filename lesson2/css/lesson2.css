@@ -10,7 +10,7 @@
 
 header {
   grid-column: 1;
-  background-color: rgb(255, 215, 0);
+  background-color: rgb(206, 170, 9);
   color: rgb(4, 99, 7);
   font-size: 24pt;
   text-align: center;
@@ -32,7 +32,7 @@ div section img {
 
 footer {
   grid-column: 1;
-  background-color: rgb(255, 215, 0);
+  background-color: rgb(206, 170, 9);
   color: rgb(4, 99, 7);
   text-align: center;
   align-items: center;
@@ -47,7 +47,7 @@ footer {
 
   header {
     grid-column: 1 / span 2;
-    background-color: rgb(255, 215, 0);
+    background-color: rgb(206, 170, 9);
     color: rgb(4, 99, 7);
     font-size: 24pt;
     text-align: center;
@@ -79,7 +79,7 @@ footer {
   }
   footer {
     grid-column: 1 / span 2;
-    background-color: rgb(255, 215, 0);
+    background-color: rgb(206, 170, 9);
     color: rgb(4, 99, 7);
     text-align: center;
     align-items: center;
@@ -96,7 +96,7 @@ footer {
 
   header {
     grid-column: 1 / span 3;
-    background-color: rgb(255, 215, 0);
+    background-color: rgb(206, 170, 9);
     color: rgb(4, 99, 7);
     font-size: 24pt;
     text-align: center;
@@ -128,7 +128,7 @@ footer {
   }
   footer {
     grid-column: 1 / span 3;
-    background-color: rgb(255, 215, 0);
+    background-color: rgb(206, 170, 9);
     color: rgb(4, 99, 7);
     text-align: center;
     align-items: center;
