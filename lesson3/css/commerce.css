@@ -1,0 +1,99 @@
+/* Global */
+#content{
+    font-size: 12pt;
+    font-family: "Noto Serif", serif;
+}
+
+.active{
+    background-color: #950000;
+}
+
+header h1{
+    text-align: center;
+    font-family: "Dancing Script";
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav div{
+    margin: 0 auto;
+    text-align: center;    
+    background-color: #ce1126;
+    color: white;
+    padding: 1rem;
+    margin: .1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    padding: 1rem;
+}
+
+main table{
+    width: 100%;
+    border: 2px black solid;
+}
+
+main table th{
+    border: 2px black solid;
+    margin: 0px;
+    padding: 0px;
+    background-color: #4853af;
+}
+
+main table td{
+    border: 2px black solid;
+}
+
+main img{
+    max-width: 100%;
+}
+
+footer{
+    background-color: #ce1126;
+    color: white;
+    text-align: center;
+    padding: .5rem;    
+}
+
+#header-sample{
+    font-family: "Dancing Script", cursive;
+    font-size: 20pt;
+}
+
+#nav-sample, #footer-sample{
+    background-color: #ce1126;
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size: 16pt;
+}
+
+#h1-sample{
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#h2-sample{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 600px){
+    nav {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    #content {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
